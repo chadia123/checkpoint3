@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+.cont{
+  position: relative;
+  color: white;
+}
+ 
+.text {
+  display:inline;
+  font-size: 50px;
+  color: beige;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.container{
+  margin: 0 22px;
+}
+
+
+.article{
+  font-size: 250%;
+  font-weight:bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(3, 3, 54);
+}
+
+.article-body{
+  text-align: justify;
+  padding: 10px;
+}
+
+.square{
+  display: inline-block;
+  width: 43%;
+  height: 180px;
+  background-color: rgb(153, 156, 156);
+  margin: 0.5em;
+  overflow: hidden;  
+}
+
+.square:hover{
+  outline: 4px solid rgb(12, 12, 12);
+}
+
